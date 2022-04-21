@@ -1,0 +1,26 @@
+{
+    "name": "yanggs07/yii2-salt-api",
+    "description": "A yii2 implement of saltstack api client",
+    "type": "yii2-extension",
+    "version": "0.0.1",
+    "keywords": ["yii2", "extension", "saltstack", "salt", "salt-api"],
+    "require": {
+        "lspbupt/yii2-curl": "dev-master",
+        "php": ">=7.4",
+        "yiisoft/yii2": "~2.0",
+        "ext-curl": "*"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "ygs",
+            "email": "ygs@cgcal.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "yanggs07\\saltapi\\": "src/"
+        }
+    }
+}
