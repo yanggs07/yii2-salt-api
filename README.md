@@ -1,4 +1,7 @@
 # Usages
+```shell
+composer require yanggs07/yii2-salt-api
+```
 Before using this salt-api PHP SDK, enable salt-api for salt master is required.
 
 ## Salt-api Installation And Configuration
